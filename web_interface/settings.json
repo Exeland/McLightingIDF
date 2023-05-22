@@ -1,0 +1,26 @@
+{
+    "auth":{
+        "pswd": "12345678"
+    },
+    "AP":{
+        "ssid": "PE_WTM",
+        "pswd": "12345678"
+    },
+    "NW":{
+        "ssid": "AP",
+        "pswd": "12345678"
+    },
+    "MQTT":{
+        "enbl": false,
+        "hst": "",
+        "prt": "1883",
+        "clnt": "WTM_%06X",
+        "usr": "WTM_USER",
+        "pswd": "12345678",
+        "tpc" : "home/wtm/meas"
+    },
+    "lang":{
+        "val" : "ru"
+    }
+ }
+ 

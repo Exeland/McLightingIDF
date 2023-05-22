@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/0.1545843174/IDF_PATH/delimiter=\:
+environment/project/0.1545843174/IDF_PATH/operation=replace
+environment/project/0.1545843174/IDF_PATH/value=/home/exeland/esp/ESP8266_RTOS_SDK
+environment/project/0.1545843174/append=true
+environment/project/0.1545843174/appendContributed=true
+environment/project/0.27258165/IDF_PATH/delimiter=\:
+environment/project/0.27258165/IDF_PATH/operation=replace
+environment/project/0.27258165/IDF_PATH/value=/home/exeland/esp/ESP8266_RTOS_SDK/
+environment/project/0.27258165/append=true
+environment/project/0.27258165/appendContributed=true

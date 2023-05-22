@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, minimal-ui">
+    <meta name="theme-color" content="#36393E">
+
+    <meta name="description" content="WTM-WiFi">
+    <title>WTM-WiFi</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/site.js"></script>
+    <script src="js/upgrade.js"></script>
+</head>
+
+<body onload="loadLang()">
+    <div id="overlay"></div>
+    <div id="menuList"></div>
+    <div id="status"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 data-translate="upgrade" class="header">Upgrage</h1>
+                <label id="sel_file" data-translate="sel_file" for="newfile" class="button" style="width:100%;">Select Firmware</label>
+                <input onchange="file_change()" accept='.bin' id="newfile" type="file">
+                <br>
+                <progress id="progressBar" max="100" value="0"" ></progress>
+                <div class="additional-info">
+                    <h4 id="sate_load"></h4>
+                    <p id="loaded_n_total"></p>
+                </div>
+                <button id="btn_upld" data-translate="btn_upld" class="right" onclick="upload()" type="submit" disabled>Upload and Reboot</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
